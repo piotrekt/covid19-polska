@@ -1,1 +1,1 @@
-Zapraszam na stronę [http://piotrekt.github.io/covid19-polska](http://piotrekt.github.io/covid19-polska) i wizualizacjami w **Tableau Public** 
+Zapraszam na stronę [https://piotrekt.github.io/covid19-polska](https://piotrekt.github.io/covid19-polska) i wizualizacjami w **Tableau Public** 
