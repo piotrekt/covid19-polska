@@ -5,43 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg></script>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Acme&family=Poppins&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>COVID-19 - Wizualizacje na mapach</title>
 
     <body>
+
       
-<div class="container py-2 my-1 col-4">
-  <h1 class="text-center">COVID-19 nagłówek</h1>
-  <h6 class="text-center">opis..........</h6>
+<div class="container py-2 my-1 col-6">
+  <h1 class="text-center"><b>Wizualizacja danych osób zarażonych COVID-19 na mapach</b></h1>
+<p>
+<span>Poniższe mapy zostały wykonane w <Strong>Tableau Public</Strong> na podstawie danych autorstwa <b>Michała Roglskiego</b>. <br /></span>
+<span>Dane źródłowe dla powiatów dostępne są na <i class="fas fa-link"></i> <a href="https://bit.ly/covid19_powiaty" target="_blank">bit.ly/covid19_powiaty</a> a dla województw <i class="fas fa-link"></i> <a href="https://bit.ly/covid19-polska" target="_blank">bit.ly/covid19-polska</a>.</span>
+
 </div>
 
-      <div class="container py-3 my-2  col-6 ">
-        <div class="row border-bottom">
-          <div class="col">
-            Opis 
+<div class="container py-3 my-2  col-6 ">
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Poział powiatów na strefy Ministerstwa Zdrowia</p>
+      <p class="text-sm-left">
+      Wizualizacja przedstawia 3 rodzaje map z podziałem na strefy obliczone na podstawie <a href="https://www.gov.pl/web/zdrowie/dodatkowe-obostrzenia-w-powiatach-z-najwiekszym-przyrostem-zakazen" target="_blank">wytycznych Ministerstwa Zdrowia</a>.
+      <ul>
+      <li>Aktualne (3 strefy) - podział na 3 strefy zgodnie aktualnymi danymi z powiatów</li>
+      <li>Aktualne (6 stref) - podział na dodatkowe strefy z zielonej strefy MZ</li>
+      <li>Strefy wskazane przez Ministerstwo Zdrowia</li>
+    </ul>
+    </p>
+      <p><i class="fas fa-link"></i> <a href="https://bit.ly/covid-strefy" target="_blank">bit.ly/covid-strefy</a> </p>
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_strefy.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Liczba zgonów w podziale na powiaty</p>
+      <p class="text-sm-left"> Wizualizacja przedstawia łączną liczbę zgonów w wyniku <b>COVID-19</b> oraz liczbę zgonów w przeliczeniu na 100 tys. mieszkańców powiatu.</p>
+      <p><i class="fas fa-link"></i> <a href="https://bit.ly/covid-zgony" target="_blank">bit.ly/covid-zgony</a> </p>
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_zgony.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
 
 
-            <p>Link: bit.ly/strefy </p>
-          </div>
-          <div class="col">
-            <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_strefy.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Przyrost tyogodniowy podziale na powiaty</p>
+      <p class="text-sm-left">Wizualizacja przedstawia tygodniowy przyrost osób zarażonych <b>COVID-19</b> :
+<ul>
+  <li>w przeliczeniu na 100 tys. mieszkańców powiatu</li>
+  <li>w przeliczeniu na 100 km<sup>2</sup> powierzchni powiatu</li>
+  <li>łączny przyrost w powiecie</li>
+</ul>
 
-          </div>
-        </div>
-            <div class="row border-bottom ">
-              <div class="col">
-                Opis 
+      </p>
+      <p><i class="fas fa-link"></i> <a href="https://tabsoft.co/2EK8lGm" target="_blank">tabsoft.co/2EK8lGm</a></p>
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_przyrost_7.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
 
 
-                <p>Link: bit.ly/strefy </p>
-              </div>
-              <div class="col">
-                <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_zgony.png" alt="" class ="border rounded m-2" style="width: 400px">
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Łączna liczba przypadków od początku pandemii</p>
+      <p class="text-sm-left">Wizualizacja przedstawia łączną liczbę osób zarażonych od początku pandemii. <br />Pierwsza mapa przedstawia łączną liczbę dla województw, a kolejna dane dla powiatów.</p>
+      <p><i class="fas fa-link"></i> <a href="https://bit.ly/powiaty" target="_blank">bit.ly/powiaty</a></p>
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_liczba.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
 
-              </div>
+
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Łączna liczba przypadków od początku pandemii na 100 tys. mieszkańców</p>
+      <p class="text-sm-left">Wizualizacja przedstawia łączną liczbę osób zarażonych w przeliczeniu na 100 tys. mieszkańców od początku pandemii. <br />Pierwsza mapa przedstawia łączną liczbę dla województw, a kolejna dane dla powiatów.</p>
+      <p><i class="fas fa-link"></i> <a href="https://tbit.ly/1000-mieszkancow " target="_blank">bit.ly/1000-mieszkancow </a></p>
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/powiaty_liczba_100.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
+
+
+  <div class="row border-bottom">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Podsumowanie dla województw oraz zmiana R(t) dla Polski</p>
+      <p class="text-sm-left">Wizualizacja przedstawia podsumowanie danych dla województw oraz obliczenie współczynnika R(t) średnia dla 7 dni dla całej Polski. <br/>Współczynnik R(t) na podstawie obliczeń <b>Adama Gapińskiego</b>, źródło: <i class="fas fa-link"></i> <a href="http://bit.ly/covid19-Rt" target="_blank">bit.ly/covid19-Rt</a></p>
+      <p><i class="fas fa-link"></i> <a href="https://bit.ly/covid19-R" target="_blank">bit.ly/covid19-R</a></p>      
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/woj_all.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
+</div>
+
+
+  <div class="row">
+    <div class="col">
+      <p class="font-weight-bold text-uppercase">Porównanie zmian R(t) w województwach</p>
+      <p class="text-sm-left">Wizualizacja przedstawia porównanie zmiany liczby nowych przypadków oraz współczynnika R(t) w województwach. <br/>Współczynnik R(t) na podstawie obliczeń <b>Adama Gapińskiego</b>, źródło: <i class="fas fa-link"></i> <a href="http://bit.ly/covid19-Rt" target="_blank">bit.ly/covid19-Rt</a></p>
+      <p><i class="fas fa-link"></i> <a href="https://tabsoft.co/2YPpkOl" target="_blank">tabsoft.co/2YPpkOl</a></p>      
+    </div>
+    <div class="col">
+      <img src="https://piotrekt.github.io/covid19-polska/tarnowski_info/img/woj_rt.png" alt="" class ="border rounded m-2" style="width: 400px"> 
+    </div>
 </div>
 </div>
-          
-        
+
+ 
         
     </body>
 </html>
