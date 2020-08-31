@@ -18,8 +18,8 @@ background-size: contain; */
 }
 
 .box {
-    width: 650px;
-    padding: 20px;
+    width: 450px;
+    padding: 30px;
     text-align: center;
     color: white;
     margin: 0;
@@ -39,6 +39,10 @@ background-size: contain; */
     height:  200px;
 }
 
+.tp {
+    width: 150px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -53,7 +57,7 @@ ul {
 .box li a {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     transition: all ease-in-out 250ms;
 }
 
@@ -62,5 +66,20 @@ ul {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 60px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.mail li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+.mail li a:hover {
+    color: #b9b9b9;
 }
